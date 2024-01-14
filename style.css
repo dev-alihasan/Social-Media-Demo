@@ -58,7 +58,6 @@ button {
   border-radius: 4em;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-
 }
 
 button:hover {
@@ -95,7 +94,7 @@ img {
 .like-count {
   color: #555;
   font-size: 14px;
-  margin-right: 10px;
+  margin: 0.8em;
 }
 
 .comments {
