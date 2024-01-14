@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(
+    to right top,
+    #f0daea,
+    #e2bae7,
+    #c49fec,
+    #928af5,
+    #027bff
+  );
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+#post-form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4em;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(240, 218, 234);
+  color: #333;
+}
+
+#posts {
+  list-style: none;
+  padding: 0;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.user-info {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+img {
+  /* max-width: 100%; */
+  width: 250px;
+  max-height: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.like-count {
+  color: #555;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.comments {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.comments li {
+  margin-bottom: 5px;
+}

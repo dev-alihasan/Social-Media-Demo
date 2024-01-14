@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Social Media Demo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Social Media Demo</h1>
+      <div id="user-info"></div>
+    </header>
+    <main>
+      <form id="post-form">
+        <label for="post-text">What's on your mind?</label>
+        <textarea id="post-text" rows="4" cols="50"></textarea>
+
+        <label for="post-image">Upload an image:</label>
+        <input type="file" id="post-image" accept="image/*" />
+
+        <button type="button" onclick="addPost()">Post</button>
+      </form>
+      <ul id="posts"></ul>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
